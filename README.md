@@ -1,4 +1,4 @@
-# Advanced Array Methods
+# Map, Filter, Reduce
 
 #### 1. Get total orders
 * Return the total amount of orders. 
