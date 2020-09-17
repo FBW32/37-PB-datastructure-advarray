@@ -125,5 +125,7 @@ function sum(arraySum) {
     console.log(arraySum.reduce((num, addNum) => num + addNum, 0));
 }
 
-sum([1, 2, 3, 4, 5]); //returns 15
-sum([6, 7, 7]); //returns 20
+sum([1, 2, 3, 4, 5]);
+// 15
+sum([6, 7, 7]);
+// 20
