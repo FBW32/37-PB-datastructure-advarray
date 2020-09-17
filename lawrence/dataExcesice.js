@@ -13,21 +13,15 @@ console.log(incArrayNum); // [ 4, 46, 7, 57, 8, 10 ]
 let finNums = [68,24,72,54,18,27,32];
 
  function numSquareRoot() {
-    let squareNum = finNums.map(Math.sqrt);
+    let squareNum = finNums.map((item) => {
+        return Math.round(Math.sqrt(item))
+    });
 
-    return squareNum + Math.round(squareNum);
+    return squareNum
  }
 
-console.log(numSquareRoot()); // 
-/* //[
-    8.246211251235321,
-    4.898979485566356,
-    8.48528137423857,
-    7.3484692283495345,
-    4.242640687119285,
-    5.196152422706632,
-    5.656854249492381
-  //]*/
+console.log(numSquareRoot()); // [8, 5, 8, 7, 4, 5, 6]
+  
   
 
 //# 3. Filter Evens
